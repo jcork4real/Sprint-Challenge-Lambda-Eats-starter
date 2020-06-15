@@ -6,8 +6,8 @@ describe("Test for Sprint-Challenge-Lambda-Eats-starter", function () {
         
         cy
             .get('input[name="name"]')
-            .type("Priyanka")
-            .should("have.value", "Priyanka")
+            .type("Jarone")
+            .should("have.value", "Jarone")
         cy
             .get('textarea[name="specInstr"]')
             .type("some text")

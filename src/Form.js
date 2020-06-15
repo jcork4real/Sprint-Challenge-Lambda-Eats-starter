@@ -120,7 +120,7 @@ export default function Form() {
     return (
 
       <Card>
-          <CardImg border= 'solid' top width="100%" src="./Assets/Pizza.jpg" alt='pizza cap'/>
+          <CardImg top width="100%" alt='pizza cap'/>
         <form onSubmit={formSubmit}>
             <div className='header'>
             <h1>Build Your Own Pizza</h1>
